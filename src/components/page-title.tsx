@@ -1,0 +1,11 @@
+export default function PageTitle({ title, description }: { title: string, description: string }) {
+  return (
+    <div style={{ backgroundImage: `url('/assets/flowers1.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
+      <div className="py-28 flex flex-col items-center justify-center space-y-2">
+        <h1 className="text-5xl">{title}</h1>
+        <span className="text-muted-foreground">{description}</span>
+      </div>
+    </div>
+  )
+}
+

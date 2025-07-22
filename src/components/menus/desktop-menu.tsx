@@ -4,7 +4,7 @@ import DesktopMenuItem from "./desktop-menu-item";
 
 export default function DesktopMenu() {
   return (
-    <nav className="flex flex-row items-center justify-center gap-10">
+    <nav className="flex flex-row items-center justify-center space-x-8">
       <DesktopMenuItem href='/about' name="About" />
       <DesktopMenuItem href='/shop' name="shop" />
       <DesktopMenuItem href='/posts' name="Blog" />

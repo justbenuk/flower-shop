@@ -8,4 +8,3 @@ export default function PageTitle({ title, description }: { title: string, descr
     </div>
   )
 }
-

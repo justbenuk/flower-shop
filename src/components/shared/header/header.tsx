@@ -6,9 +6,9 @@ import { AiOutlineShopping, AiOutlineMenu } from "react-icons/ai";
 
 export default function Header() {
   return (
-    <header>
+    <header className="py-8">
       <Container>
-        <div className="flex flex-row items-center justify-between py-6">
+        <div className="flex flex-row items-center justify-between">
           <Link href={'/'} className="uppercase font-medium text-md lg:text-2xl">
             <span className="text-rose-500">Flower</span>Shop
           </Link>

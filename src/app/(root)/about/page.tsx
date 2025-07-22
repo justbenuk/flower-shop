@@ -15,7 +15,7 @@ export default function AboutPage() {
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
           </div>
           <div>
-            <div className="border h-full w-full"><Image src={'/assets/florest1.jpg'} alt="florest" width={700} height={300} className="rounded-2xl" /></div>
+            <div className="border h-full w-full"><Image src={'/assets/about/florest1.jpg'} alt="florest" width={700} height={300} className="rounded-2xl" /></div>
           </div>
         </div>
       </Container >

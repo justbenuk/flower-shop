@@ -1,23 +1,24 @@
 export const TEAMMEMBERS = [
   {
-    name: 'Owner',
+    name: 'Elara Thorne',
     job: 'Owner',
-    profileImg: '/assets/profile.png'
+    profileImg: '/assets/user/person1.jpg'
   },
   {
-    name: 'Staff',
+    name: 'Genevieve Marshall',
     job: 'Florest',
-    profileImg: '/assets/profile.png'
+    profileImg: '/assets/user/person2.jpg'
+
   },
   {
-    name: 'Driver',
+    name: 'Maeve Fletcher',
     job: 'Delivery driver',
-    profileImg: '/assets/profile.png'
+    profileImg: '/assets/user/person3.jpg'
   },
   {
-    name: 'Staff',
+    name: 'Julian Sinclair',
     job: 'Florest',
-    profileImg: '/assets/profile.png'
+    profileImg: '/assets/user/person4.jpg'
   },
 
 ]

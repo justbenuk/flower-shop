@@ -13,8 +13,10 @@ export default function MeetTheTeam() {
           {TEAMMEMBERS.map((staff, idx) => (
             <div key={idx} className="flex flex-col items-center justify-center space-y-4">
               <Image src={staff.profileImg} alt="Staff Profile Image" height={200} width={200} className="rounded-full size-32 lg:size-40" />
-              <h1 className="text-md uppercase">{staff.name}</h1>
-              <span className="text-sm text-muted-foreground">{staff.job}</span>
+              <div className="text-center">
+                <h1 className="text-md uppercase">{staff.name}</h1>
+                <span className="text-sm text-muted-foreground">{staff.job}</span>
+              </div>
             </div>
           ))}
         </div>

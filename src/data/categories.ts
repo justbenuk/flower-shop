@@ -2,6 +2,7 @@ export const CATEGORIES = [
   {
     id: 1,
     name: 'seasonal',
+    description: 'Fresh blooms, perfectly in season.',
     image: '/assets/shop/seasonal.jpg',
     subCategories: [
       {
